@@ -1,10 +1,17 @@
 @charset 'UTF-8';
 
-@media screen and (min-width:768) and(max-width:992px) {
+@media screen and (min-width:768px) and (max-width:992px) {
+    section#login {
+        background-color: rgba(177, 189, 189, 0.274);
+        width: 40vw;
+        height: 70vh;
+        margin: auto;
+        margin-top: 100px;
+        margin-right: 10px;
+        overflow: hidden; 
+    }
+}  
     
-    
-}
-
 
 
 
@@ -21,33 +28,26 @@
 
 @media screen and (min-width:992px){
     
-
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
-}
-
-
-
-section{
+#login{
+    display: block;
     background-color: rgba(177, 189, 189, 0.274);
-    width: 30vw;
-    height: 60vh;
+    width: 40vw;
+    height: 70vh;
     margin: auto;
     margin-top: 100px;
-    margin-right: 10px;    
+    overflow: hidden;   
+ 
 }
 
 p{
     text-align: center;
     padding: 10px;
-    margin-bottom: 10px;
-    font-size: large;
+    margin-bottom: 30px;
+    font-size: x-large;
     
 }
 
-label{
-    display: none;
+html{
+    background-position: center;
 }
 }
